@@ -1,19 +1,22 @@
 #include<stdio.h>
+void main(int argc, char * argv[]) {
+   int i,a,b, sum = 0,diff=0;
  
-int main()
-{
-   int a, b, sum,diff1;
- 
-   printf("Enter two numbers to add\n");
-   scanf("%d%d",&a,&b);
- 
+   if (argc != 3) 
+	{
+      	printf("You have forgot to type numbers.");
+      	exit(1);
+   	}
+   for (i=1;i<argc;i++)
+	{	
+   	a=atoi(argv[1]);
+   	b=atoi(argv[2]);
+	}
    sum = a + b;
+   printf("The sum is :%d \n",sum);
+   diff = a - b;
+   printf("\nDifference of the entered numbers:%d\n",diff);
  
-   printf("Sum of entered numbers = %d\n",sum);
-   diff1 = a - b;
-   printf("Difference of the entered numbers =%d\n",diff1);
- 
-   return 0;
 }
 
 
