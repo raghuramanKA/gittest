@@ -2,16 +2,16 @@
  
 int main()
 {
-   int a, b, c;
+   int a, b, sum,diff;
  
    printf("Enter two numbers to add\n");
    scanf("%d%d",&a,&b);
  
-   c = a + b;
+   sum = a + b;
  
-   printf("Sum of entered numbers = %d\n",c);
-   c = a - b;
-   printf("Difference of the entered numbers =%d\n",c);
+   printf("Sum of entered numbers = %d\n",sum);
+   diff = a - b;
+   printf("Difference of the entered numbers =%d\n",diff);
  
    return 0;
 }
