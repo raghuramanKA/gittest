@@ -10,8 +10,8 @@ int main()
    sum = a + b;
  
    printf("Sum of entered numbers = %d\n",sum);
-   diff = a - b;
-   printf("Difference of the entered numbers =%d\n",diff);
+   diff1 = a - b;
+   printf("Difference of the entered numbers =%d\n",diff1);
  
    return 0;
 }
